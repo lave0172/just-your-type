@@ -5,28 +5,12 @@
 @viewport { width: device-width; scale: 1; }
 
 html {
-  box-sizing: border-box;
-
-  -moz-text-size-adjust: 100%;
-  -ms-text-size-adjust: 100%;
-  -webkit-text-size-adjust: 100%;
-  text-size-adjust: 100%;
 
   font-family: Georgia, serif;
 }
 
-*, *::before, *::after {
-  box-sizing: inherit;
-}
-
 body {
-  margin: 0;
   background-color: #000;
-}
-
-.img-flex {
-  display: block;
-  width: 100%;
 }
 
 .grid {
@@ -45,7 +29,7 @@ body {
 }
 
 h1 {
-  font-family: 'Righteous', cursive;
+  font-family: "Righteous", cursive;
 }
 
 .aqua {
@@ -58,7 +42,7 @@ h1 {
 }
 
 p {
-  font-family: 'Libre Baskerville', serif;
+  font-family: "Libre Baskerville", serif;
 }
 
 .aqua p {
@@ -103,15 +87,11 @@ a {
   text-align: center;
 }
 
-body {
-  margin: 0;
-}
-
 .wrap {
   overflow: hidden;
   position: relative;
   height: 100vh;
-  background-image: linear-gradient(-206deg, #835EFF 0%, #FF008D 100%);
+  background-image: linear-gradient(-206deg, #835eff 0%, #ff008d 100%);
 }
 
 canvas {
@@ -136,9 +116,8 @@ a .btn-lava {
 }
 
 .btn:hover {
-  box-shadow:0 0 25px 5px #ffffff;
+  box-shadow: 0 0 25px 5px #fff;
 }
-
 
 @media only screen and (min-width: 25em) {
 
