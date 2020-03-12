@@ -13,7 +13,7 @@ body {
   background-color: #000;
 }
 
-.grid {
+.area {
   display: flex;
   position: fixed;
   left: 0;
