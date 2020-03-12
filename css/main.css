@@ -27,12 +27,12 @@ h1 {
 }
 
 .aqua {
-  border: 16px solid cyan;
+  border: 16px solid #0ff;
   padding: 20px;
 }
 
 .aqua h1 {
-  color: cyan;
+  color: #0ff;
 }
 
 p {
@@ -40,39 +40,39 @@ p {
 }
 
 .aqua p {
-  background-color: cyan;
+  background-color: #0ff;
   float: left;
   padding: 4px;
   margin: 0 4px 24px;
 }
 
-h3 {
+h2 {
   color: #fff;
 }
 
 .lava {
-  border: 16px solid red;
+  border: 16px solid #f00;
   padding: 20px;
 }
 
 .lava h1 {
-  color: red;
+  color: #f00;
 }
 
 .lava p {
-  background-color: red;
+  background-color: #f00;
   float: left;
   padding: 6px;
   margin: 0 4px 24px;
 }
 
 .aqua-hr {
-  border-top: 3px solid cyan;
+  border-top: 3px solid #0ff;
   border-radius: 20px;
 }
 
 .lava-hr {
-  border-top: 3px solid red;
+  border-top: 3px solid #f00;
   border-radius: 20px;
 }
 
@@ -94,11 +94,11 @@ canvas {
 }
 
 .btn-aqua {
-  border-color: cyan;
+  border-color: #0ff;
 }
 
 .btn-lava {
-  border-color: red;
+  border-color: #f00;
 }
 
 .btn:hover {
@@ -106,13 +106,13 @@ canvas {
 }
 
 .btn-aqua:hover {
-  background-color: cyan;
+  background-color: #0ff;
   border-color: #fff;
   color: #fff;
 }
 
 .btn-lava:hover {
-  background-color: red;
+  background-color: #f00;
   border-color: #fff;
   color: #fff;
 }
