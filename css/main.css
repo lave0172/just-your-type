@@ -99,16 +99,8 @@ canvas {
   height: 100%;
 }
 
-.btn {
-  border-color: cyan;
-}
-
 .btn-aqua {
   border-color: cyan;
-}
-
-a .btn-lava {
-  border-color: red;
 }
 
 .btn-lava {
@@ -118,6 +110,20 @@ a .btn-lava {
 .btn:hover {
   box-shadow: 0 0 25px 5px #fff;
 }
+
+.btn-aqua:hover {
+  background-color: cyan;
+  border-color: #fff;
+  color: #fff;
+}
+
+.btn-lava:hover {
+  background-color: red;
+  border-color: #fff;
+  color: #fff;
+}
+
+
 
 @media only screen and (min-width: 25em) {
 
