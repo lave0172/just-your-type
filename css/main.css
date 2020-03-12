@@ -22,7 +22,7 @@ body {
   width: 100%;
 }
 
-h2 {
+h1, h3 {
   font-family: Righteous, cursive;
 }
 
@@ -33,6 +33,10 @@ h2 {
 
 .aqua h1 {
   color: #0ff;
+}
+
+.lava h3 {
+  color: #f00;
 }
 
 p {
