@@ -50,7 +50,7 @@ p {
   margin: 0 4px 24px;
 }
 
-h3 {
+h2, h4 {
   color: #fff;
 }
 
@@ -81,8 +81,11 @@ h3 {
 }
 
 a {
-  display: block;
-  text-align: center;
+  margin: 10px;
+}
+
+.btn {
+  margin-bottom: 25px;
 }
 
 .wrap {
